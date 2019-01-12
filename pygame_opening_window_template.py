@@ -1,7 +1,19 @@
-# pygame #
+"""
+ Pygame base template for opening a window
+
+ Sample Python/Pygame Programs
+ Simpson College Computer Science
+ http://programarcadegames.com/
+ http://simpson.edu/computer-science/
+
+ Explanation video: http://youtu.be/vRB_983kUMc
+
+ With some editing
+"""
 
 # libraries
 import pygame
+import sys
 
 # initialize the game engine
 pygame.init()
@@ -34,7 +46,11 @@ while not done:
     for event in pygame.event.get(): #User did something
         if event.type == pygame.QUIT: #If user clicked close
             done == True #flag that we are done so we exit this loop
-            
+            # Proper shutdown of a Pygame program
+            pygame.quit()
+            sys.exit()
+            quit()
+
     #----Game logic should go here
     
     #----Drawing code should go here
@@ -48,6 +64,3 @@ while not done:
     
     #----Limit to 60 fps
     clock.tick(60)
-    
-# Proper shutdown of a Pygame program
-pygame.quit()
