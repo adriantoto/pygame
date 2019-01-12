@@ -2,8 +2,6 @@
 
 # libraries
 import pygame
-import math
-import sys
 
 # initialize the game engine
 pygame.init()
@@ -50,3 +48,6 @@ while not done:
     
     #----Limit to 60 fps
     clock.tick(60)
+    
+# Proper shutdown of a Pygame program
+pygame.quit()
