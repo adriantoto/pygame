@@ -8,7 +8,7 @@
 
  Explanation video: http://youtu.be/vRB_983kUMc
 
- With some editing
+ With some editing by @adriantoto
 """
 
 # libraries
