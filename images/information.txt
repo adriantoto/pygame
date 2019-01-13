@@ -1,4 +1,16 @@
 Any bitmap images used in a game should already be sized for how it should appear on the screen. Don't take a 5000x5000 pixel image from a high-resolution camera and then try to load it into a window only 800x600. Use a graphics program (even MS Paint will work) and resize/crop the image before using it in your Python program.
+
 This file must be located in the same directory that the python program is in, or the computer will not find it.
+
 Be careful about using copyrighted images. If you publish a game with images that you don't have the rights to, that's illegal. If you are creating your own work that you aren't sharing, then it is ok. If you are doing a class assignment, make sure that you check with the instructor for his or her rules around it.
+
 For class assignments, I suggest my students add a comment to the program just before loading the image. List where the image came from as we did in the example above. (Don't list Google as the image source, that's like listing the “library” as your reference source. Find the website the image came from.) 
+
+This will work for most files ending in .gif and .png. This does not work well for most .jpg files. The jpeg image format is great for holding photographs, but it does subtly change the image as part of the algorithm that makes the image smaller. Images in .gif and .png are also compressed, but the algorithms used in those formats do not change the image. The format .bmp isn't compressed at all, and results in huge files. Because the .jpg format changes the format, this means that not all of the background color will be the exactly the same. In Figure 11.5 the space ship has been saved as a jpeg with a white background. The white around the ship is not exactly (255, 255, 255), but just really close.
+
+If you are picking out an image that will be transparent, choose a .gif or .png. These are the best formats for graphic art type of images. Photos should be .jpg. Keep in mind it is not possible to change a .jpg to another format just by renaming the file extension to .png. It is still a .jpg even if you call it something different. It requires conversion in a graphics program to change it to a different format. But once in a .jpg format, it has been altered and converting it to a .png won't fix those alterations.
+
+Here are three great places to find free images to use in your program:
+Kenney.nl
+OpenGameArt.org
+HasGraphics.com
