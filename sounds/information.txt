@@ -1,0 +1,12 @@
+Uncompressed sound files usually end in .wav. These files are larger than other formats because no algorithm has been run on them to make them smaller. There is also the ever popular .mp3 format, although that format has patents that can make it undesirable for certain applications. Another format that is free to use is the OGG Vorbis format that ends in .ogg.
+
+Pygame does not play all .wav files that can be found on the Internet. If you have a file that isn't working, you can try using the program Audacity to convert it to an ogg-vorbis type of sound file that ends in .ogg. This file format is small and reliable for use with pygame.
+
+If you want background music to play in your program, then check out the on-line example section for: 
+ProgramArcadeGames.com/en/python_examples/f.php?file=background_music.py
+
+Please note that you can't redistribute copyrighted music with your program. Even if you make a video of your program with copyrighted music in the background YouTube and similar video sights will flag you for copyright violation.
+
+Great places to find free sounds to use in your program:
+OpenGameArt.org
+www.freesound.org
